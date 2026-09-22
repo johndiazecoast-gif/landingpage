@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+<header>
+    <img src="banner.jpg" alt="Technology learning banner" class="banner">
+
+    <div class="school-header">
+        <h1>Sunrise Academy</h1>
+        <p>Your Gateway to Web Development Excellence</p>
+        <p>Created by: <strong>John Wilson E. Diaz</strong></p>
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#register">Register</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section id="home" class="hero">
+    <h2>Welcome to Our Learning Community</h2>
+    <p>At Sunrise Academy, we believe that everyone can learn to create beautiful and functional websites.</p>
+    <p>This landing page demonstrates HTML enhanced with CSS, including tables, divisions, paragraphs, images, forms, lists, and more.</p>
+    <p>Explore our courses, view the schedule, and register today.</p>
+    <p class="student">Student: <strong>Student Name</strong></p>
+</section>
+
+<section id="about" class="section">
+    <h2>About Sunrise Academy</h2>
+
+    <div class="about-grid">
+        <figure>
+            <img src="learning.jpg" alt="Laptop used for interactive learning">
+            <figcaption>Our interactive learning sessions</figcaption>
+        </figure>
+
+        <div class="about-text">
+            <p>Founded in 2020, Sunrise Academy has helped over <strong>5,000 students</strong> master the fundamentals of web technologies.</p>
+            <p>Our mission is to provide accessible education in HTML, CSS, structure, and content creation.</p>
+
+            <h3>Our Instructors</h3>
+            <ul>
+                <li>Ms. Valencia - Networking Lecture</li>
+                <li>Mr. Catambing - Web Page Layout &amp; Structure</li>
+                <li>Ms. Caduaan - Art Appreciation</li>
+            </ul>
+
+            <h3>What we offer</h3>
+            <ul>
+                <li>Hands-on projects</li>
+                <li>Experienced instructors</li>
+                <li>Flexible learning paths</li>
+                <li>Community support</li>
+            </ul>
+
+            <ol>
+                <li>Introduction to HTML</li>
+                <li>Building structure with tables and divs</li>
+                <li>Forms and user input</li>
+                <li>Images and multimedia</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section id="courses" class="section">
+    <h2>Our Popular Courses</h2>
+    <p>Choose from a variety of beginner-friendly courses designed for absolute beginners.</p>
+
+    <div class="table-wrap">
+        <table class="course-table">
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Duration</th>
+                    <th>Level</th>
+                    <th>Image</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">HTML Fundamentals</th>
+                    <td>4 Weeks</td>
+                    <td>Beginner</td>
+                    <td><img src="course-html.jpg" alt="HTML code"></td>
+                    <td>Learn tags, structure, tables, forms, and more.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Web Page Layout</th>
+                    <td>3 Weeks</td>
+                    <td>Beginner</td>
+                    <td><img src="course-layout.jpg" alt="Web page layout"></td>
+                    <td>Master divs, tables for layout, and semantic HTML.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Forms &amp; Interactivity</th>
+                    <td>2 Weeks</td>
+                    <td>Intermediate</td>
+                    <td><img src="course-forms.jpg" alt="Form design"></td>
+                    <td>Build contact forms, registration, and user controls.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="why">
+        <h3>Why Learn With Us?</h3>
+        <img src="why-learning.jpg" alt="Learning and growing">
+        <p><em>Just like nature grows from simple seeds, your skills will grow from basic HTML tags into full websites.</em></p>
+    </div>
+</section>
+
+<section id="schedule" class="section">
+    <h2>Weekly Class Schedule</h2>
+    <table>
+        <caption>Upcoming Sessions</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Topic</th>
+                <th>Instructor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Monday</td><td>10:00 AM</td><td>Networking Lecture</td><td>Ms. Valencia</td></tr>
+            <tr><td>Wednesday</td><td>2:00 PM</td><td>Web Page Layout &amp; Structure</td><td>Mr. Catambing</td></tr>
+            <tr><td>Friday</td><td>1:00 PM</td><td>Art Appreciation</td><td>Ms. Caduaan</td></tr>
+            <tr><td>Saturday</td><td>9:00 AM</td><td>Project Workshop</td><td>All Instructors</td></tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="register" class="section">
+    <h2>Register for a Course</h2>
+    <p>Fill out the form below to join our next cohort. All fields are important for processing your application.</p>
+
+    <form>
+        <div class="form-row">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+        </div>
+
+        <div class="form-row">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-row">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
+        </div>
+
+        <div class="form-row">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="100">
+        </div>
+
+        <div class="form-row">
+            <label for="course">Select Course:</label>
+            <select id="course" name="course">
+                <option>All Courses Bundle</option>
+                <option>HTML Fundamentals</option>
+                <option>Web Page Layout</option>
+                <option>Forms &amp; Interactivity</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <span class="label">Preferred Schedule:</span>
+            <label class="option"><input type="radio" name="schedule" checked> Morning</label>
+            <label class="option"><input type="radio" name="schedule"> Afternoon</label>
+            <label class="option"><input type="radio" name="schedule"> Weekend</label>
+        </div>
+
+        <div class="form-row">
+            <span class="label">Interests:</span>
+            <label class="option"><input type="checkbox" checked> HTML Structure</label>
+            <label class="option"><input type="checkbox"> Tables &amp; Layout</label>
+            <label class="option"><input type="checkbox"> Forms &amp; Controls</label>
+            <label class="option"><input type="checkbox"> Images &amp; Media</label>
+        </div>
+
+        <div class="form-row">
+            <label for="experience">Prior Experience:</label>
+            <textarea id="experience" name="experience" rows="4" placeholder="Tell us about any previous coding experience..."></textarea>
+        </div>
+
+        <div class="form-row">
+            <label for="start">Preferred Start Date:</label>
+            <input type="date" id="start" name="start">
+        </div>
+
+        <div class="form-row">
+            <label for="favcolor">Favorite Color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#073b70">
+        </div>
+
+        <div class="buttons">
+            <button type="submit">Submit Registration</button>
+            <button type="reset">Clear Form</button>
+            <button type="button" class="secondary">Save for Later</button>
+        </div>
+    </form>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <div class="contact-grid">
+        <div>
+            <h3>Office Hours</h3>
+            <ul>
+                <li>Monday - Friday: 9:00 AM - 5:00 PM</li>
+                <li>Saturday: 10:00 AM - 2:00 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Instructors</h3>
+            <ul>
+                <li>Ms. Valencia - Networking Lecture</li>
+                <li>Mr. Catambing - Web Page Layout</li>
+                <li>Ms. Caduaan - Art Appreciation</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section elements">
+    <h2>HTML Elements Showcase</h2>
+    <p>This page intentionally uses many HTML tags for educational purposes:</p>
+    <ul>
+        <li>Headings: <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code></li>
+        <li>Paragraphs: <code>&lt;p&gt;</code>, divisions: <code>&lt;div&gt;</code></li>
+        <li>Tables with <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code>, <code>&lt;th&gt;</code>, <code>&lt;caption&gt;</code></li>
+        <li>Forms and controls: text, email, number, radio, checkbox, date, color, submit, reset, select, textarea, button</li>
+        <li>Lists: <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code></li>
+        <li>Links: <code>&lt;a&gt;</code> and images: <code>&lt;img&gt;</code></li>
+        <li>Text formatting: <strong>bold</strong>, <em>italic</em>, <code>&lt;code&gt;</code>, and more</li>
+    </ul>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Sunrise Academy. All rights reserved.</p>
+    <p>Created by: Student | Web Page Design Class</p>
+    <p>Pure HTML + CSS | No Frameworks | No Scripts</p>
+    <a href="#home">Back to Top</a>
+</footer>
+
+</div>
+</body>
+</html>
